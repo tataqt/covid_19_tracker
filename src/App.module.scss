@@ -7,4 +7,17 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    .image{
+        width: 300px;
+        margin-top:50px;
+    }
+}
+
+@media (max-width: 700px){
+    .container{
+        margin: 0 10%;
+        .image{
+            width: 100%;
+        }
+    }
 }
